@@ -1,0 +1,35 @@
+.boton {
+  background: #367150;
+  box-shadow: 2px 2px 1px rgba(54, 113, 80, 0.25);
+  border-radius: 8px;
+  margin: 0px 8px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.boton:hover {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    #367150;
+  box-shadow: 2px 2px 1px rgba(54, 113, 80, 0.25);
+  border-radius: 8px;
+}
+.boton:active {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    #367150;
+  /* Efecto Botón */
+
+  box-shadow: 2px 2px 4px rgba(54, 113, 80, 0.25);
+  border-radius: 8px;
+}
+.contenedorFiltros {
+  display: flex;
+  justify-content: space-around;
+}

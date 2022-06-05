@@ -1,0 +1,49 @@
+.contenedorUp {
+  display: flex;
+  padding: 40px 0px;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.contenedorTextoUp {
+  padding: 7px 0px;
+  flex: 1;
+}
+.contenedorEnd {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 41px 0px;
+}
+.contenedorSeccion {
+  color: gray;
+  display: flex;
+  width: 156px;
+  height: 26px;
+  padding: 12.5px;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.contenedorSeccion:hover {
+  background: #fafafa;
+}
+.contenedorSeccionSelecto {
+  color: #367150;
+  display: flex;
+  width: 156px;
+  height: 26px;
+  padding: 12.5px;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.contenedorSeccionSelecto:hover {
+  background: #fafafa;
+}
+.contenedorBoton {
+  height: 26px;
+  width: 156px;
+}

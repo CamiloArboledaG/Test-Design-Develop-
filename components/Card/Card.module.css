@@ -1,0 +1,45 @@
+.contenedorCard {
+  background-image: url("https://concepto.de/wp-content/uploads/2018/08/persona-e1533759195177-800x400.jpg");
+  height: 192px;
+  width: 160px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  margin: 16px 20px;
+}
+.contenedorCard:hover{
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.08);
+}
+.contenedorActivo {
+  width: 68px;
+  left: 5px;
+  top: 11px;
+
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 11px 5px;
+}
+.textoActivo {
+  color: #367150;
+}
+.contenedorInfo {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  border-radius:  0px 0px 8px 8px ;
+}
+.textoNombre {
+  text-align: left;
+  padding: 5px;
+  padding-bottom: 0px;
+}
+.textoRol {
+  text-align: left;
+  padding: 5px;
+}
